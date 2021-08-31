@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: fd048ad3aec618647beb0e7ddc8deaec
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rowBombSprite: {fileID: 5353481551587371430, guid: 5dbbf381b41bc084ea72734bc4b83813, type: 3}
+  - collBombSprite: {fileID: 6560355861485280087, guid: 7c5031c6c09582f4aa2123ff77b69e22, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

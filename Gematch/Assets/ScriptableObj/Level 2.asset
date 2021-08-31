@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 381772c5087a4e94c84483bc7f385df3, type: 3}
+  m_Name: Level 2
+  m_EditorClassIdentifier: 
+  width: 6
+  height: 10
+  boardLayout:
+  - x: 0
+    y: 0
+    tiletype: 1
+  - x: 5
+    y: 9
+    tiletype: 1
+  - x: 0
+    y: 9
+    tiletype: 1
+  - x: 5
+    y: 0
+    tiletype: 1
+  gemsArr:
+  - {fileID: 2472907333901318720, guid: 7f48890be115a20419d6f16a08e0f397, type: 3}
+  - {fileID: 7369794517898358085, guid: 27e4f37606d01f94e8dee5e8f3735467, type: 3}
+  - {fileID: 8982944700617921526, guid: d30ffe956dcec7549bdeeb719aefba90, type: 3}
+  - {fileID: 2757450991653170074, guid: 6f5e088229d9a7749bdf07a6d27fa791, type: 3}
+  - {fileID: 608608465784949565, guid: 891c7a7e59e629949ad5d53bbe22ce30, type: 3}
+  ScoreGoals: e8030000d0070000ac0d0000
+  req:
+    gameType: 1
+    counter: 120
+  levelGoals:
+  - numOfGoals: 30
+    numOfCollected: 0
+    goalSprite: {fileID: 21300000, guid: d6873a070b35841449019b52c3837302, type: 3}
+    matchValue: Orange
+  - numOfGoals: 30
+    numOfCollected: 0
+    goalSprite: {fileID: 21300000, guid: afb41b21931ebc14c9e214aef69978d7, type: 3}
+    matchValue: Milk

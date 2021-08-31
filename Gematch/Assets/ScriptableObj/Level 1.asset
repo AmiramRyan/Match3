@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 381772c5087a4e94c84483bc7f385df3, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  width: 5
+  height: 7
+  boardLayout: []
+  gemsArr:
+  - {fileID: 2472907333901318720, guid: 7f48890be115a20419d6f16a08e0f397, type: 3}
+  - {fileID: 7369794517898358085, guid: 27e4f37606d01f94e8dee5e8f3735467, type: 3}
+  - {fileID: 8982944700617921526, guid: d30ffe956dcec7549bdeeb719aefba90, type: 3}
+  - {fileID: 2757450991653170074, guid: 6f5e088229d9a7749bdf07a6d27fa791, type: 3}
+  ScoreGoals: 2c010000f401000064000000
+  req:
+    gameType: 0
+    counter: 30
+  levelGoals:
+  - numOfGoals: 15
+    numOfCollected: 0
+    goalSprite: {fileID: 21300000, guid: 642766257b587b04daa3c0e5d31db6f5, type: 3}
+    matchValue: Apple
+  - numOfGoals: 15
+    numOfCollected: 0
+    goalSprite: {fileID: 21300000, guid: f16c4b957bc44a1489d5a8a2c2aad8d6, type: 3}
+    matchValue: Cooco
